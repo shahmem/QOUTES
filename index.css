@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+}
+.navbar{
+    background-color: rgba(221, 221, 221, 0.13);
+    width: 100vw;
+    position: fixed !important;
+    z-index: 10 !important;
+}
+nav a{
+    color: white !important;
+}
+.navbar-toggler-icon{
+    color: white !important;
+}
+.containr{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(qoute-bg.jpg);
+}
+.qoutes{
+    width: 40vw;
+    height: 55vh;
+    background-color: rgba(255, 255, 255, 0.24);
+    margin-top: 8rem;
+    text-shadow: 1px 1px 4px black;
+}
+#qoute{
+    color: rgb(194, 184, 49);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    margin: 1.5rem;
+}
+#btn{
+    padding: 0.7rem 3rem;
+    border: none;
+    margin: 10rem;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.76);
+    background-color: rgba(190, 174, 29, 0.432);
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    text-shadow: 1px 1px 4px black;
+
+}
+@media all and (max-width:838px) {
+    .qoutes{
+        width: 60vw;
+        height: 45vh;
+        margin-top: 8rem;
+    }
+    #qoute{
+        font-size: 1.1rem;
+        margin: 1.4rem;
+    }
+    #btn{
+        padding: 0.7rem 3rem;
+        margin: 8.9rem;
+        font-size: 14px;
+    }
+}
+@media all and (max-width:838px) {
+    .qoutes{
+        width: 75vw;
+        height: 40vh;
+        margin-top: 8rem;
+    }
+    #qoute{
+        font-size: 1rem;
+        margin: 1.3rem ;
+    }
+    #btn{
+        padding: 0.6rem 2.4rem;
+        margin: 7.9rem;
+        font-size: 14px;
+    }
+}
